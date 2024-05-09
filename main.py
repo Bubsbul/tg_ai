@@ -25,7 +25,7 @@ async def process_help_command(message: Message):
     )
 
 
-# Этот хэндлер будет срабатывать на любые ваши текстовые сообщения,
+# Этот хэндлер будет срабатывать на любые вашиg текстовые сообщения,
 # кроме команд "/start" и "/help"
 async def send_echo(message: Message):
     await message.reply(text=message.text)
