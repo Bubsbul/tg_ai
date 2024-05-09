@@ -4,9 +4,6 @@ from aiogram.types import Message
 from aiogram.types import ContentType
 from aiogram import F
 
-# Вместо BOT TOKEN HERE нужноf вставить токен вашего бота, полученный у @BotFather
-BOT_TOKEN = 'token'
-
 # Создаем объекты бота и диспетчера
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
